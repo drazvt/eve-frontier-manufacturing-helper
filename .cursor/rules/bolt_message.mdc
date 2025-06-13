@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+New File Structure:
+📁 /src/data/ - Data Files
+blueprints.ts: Contains all blueprint data with proper TypeScript interfaces
+printerTypes.ts: Printer type configurations and logic to create printer types from blueprints
+asteroidMining.ts: Asteroid type mapping for raw materials
+📁 /src/types/ - Type Definitions
+index.ts: Centralized TypeScript interfaces for Blueprint, PrinterType, and MineralTotal
+Key Improvements:
+🔧 Modular Architecture:
+Separated Concerns: Data, types, and logic are now in separate files
+Easy Maintenance: When real data comes in, you only need to update the data files
+Type Safety: All interfaces are properly defined and imported
+Scalable: Easy to add new blueprints, printer types, or asteroid mappings
+🚀 Dynamic Data Loading:
+createPrinterTypes(): Function that dynamically creates printer types from blueprint data
+Flexible Imports: All data is imported as variables, making it easy to swap with API calls later
+Clean Dependencies: Clear separation between data and UI logic
+📊 Benefits for Real Data Integration:
+Easy API Integration: Replace imports with API calls in the same files
+Consistent Interfaces: TypeScript ensures data structure consistency
+Centralized Updates: Change data in one place, updates everywhere
+Testing Ready: Mock data can be easily swapped for test data
+Performance: Data can be lazy-loaded or cached as needed
+Next Steps for Real Data:
+When you're ready to integrate real data, you can:
+
+Replace blueprints.ts with an API call or database query
+Update asteroidMining.ts with real asteroid-to-material mappings
+Modify printerTypes.ts if printer configurations come from a different source
+Add loading states and error handling in the main App component
+The application now has a clean, maintainable structure that's ready for production data! 🎯
+
+

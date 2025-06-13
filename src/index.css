@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+div::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+div {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', 'Courier New', monospace;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  letter-spacing: 0.08em; /* Increased from 0.05em */
+}
+
+/* Additional letter spacing for specific elements */
+.font-mono {
+  letter-spacing: 0.12em; /* Increased from 0.08em */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.15em; /* Increased from 0.1em */
+}
+
+/* Special spacing for the main title */
+.title-spacing {
+  letter-spacing: 0.2em; /* Increased from 0.15em */
+}
+
+/* Table and data elements */
+table {
+  letter-spacing: 0.1em; /* Increased from 0.06em */
+}
+
+/* Button and interactive elements */
+button {
+  letter-spacing: 0.08em; /* Increased from 0.05em */
+}
+
+/* Input elements */
+input {
+  letter-spacing: 0.08em;
+}
+
+/* Additional spacing for specific UI elements */
+.tracking-ultra-wide {
+  letter-spacing: 0.25em; /* Even more spacing for ultra-wide elements */
+}
+
+.tracking-super-wide {
+  letter-spacing: 0.3em; /* Maximum spacing for special elements */
+}
