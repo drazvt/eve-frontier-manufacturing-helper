@@ -19,9 +19,10 @@ export const createPrinterTypes = (blueprints: Blueprint[]): PrinterType[] => {
     id: config.id,
     name: config.name,
     blueprints: blueprints.filter(bp => {
-      // Check if the blueprint's ID is in the printer's includedTypeIDs
+      // The blueprint ID in the transformed data is the blueprintTypeID
+      // We need to match it against the includedTypeIDs from printers.json
       const blueprintId = parseInt(bp.id);
       return config.includedTypeIDs.includes(blueprintId);
-    })
+    }).sort((a, b) => a.name.localeCompare(b.name)) // Sort blueprints by name
   }));
 };

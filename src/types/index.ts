@@ -14,6 +14,12 @@ export interface PrinterType {
   blueprints: Blueprint[];
 }
 
+export interface RefineryType {
+  id: string;
+  name: string;
+  blueprints: Blueprint[];
+}
+
 export interface MineralTotal {
   name: string;
   totalAmount: number;

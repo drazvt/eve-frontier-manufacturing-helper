@@ -1,9 +1,10 @@
 import { blueprints as mockBlueprints } from '../data/blueprints';
 import { createPrinterTypes } from '../data/printerTypes';
 import { asteroidMining } from '../data/asteroidMining';
-import { Blueprint, PrinterType } from '../types';
+import { Blueprint, PrinterType, RefineryType } from '../types';
 import { DataTransformer } from './dataTransformer';
 import rawBlueprints from '../data/blueprints.json';
+import { createRefineryTypes } from '../data/refineryTypes';
 
 export class DataServiceError extends Error {
   constructor(message: string, public code: string) {
@@ -111,6 +112,14 @@ class DataService {
     return this.handleDataFetch(async () => {
       const blueprints = await this.getBlueprints();
       return blueprints.filter(bp => bp.printerType === printerType);
+    });
+  }
+
+  // Get refinery types
+  async getRefineryTypes(): Promise<RefineryType[]> {
+    return this.handleDataFetch(async () => {
+      const blueprints = await this.getBlueprints();
+      return createRefineryTypes(blueprints);
     });
   }
 }
