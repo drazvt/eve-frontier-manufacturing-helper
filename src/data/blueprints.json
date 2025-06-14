@@ -1,0 +1,4347 @@
+{
+    "88994": {
+        "blueprintTypeID": 88994,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 84180
+            },
+            {
+                "quantity": 5,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 77484
+            }
+        ],
+        "manufacturing_time": 750
+    },
+    "89128": {
+        "blueprintTypeID": 89128,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 16,
+                "typeID": 84180
+            },
+            {
+                "quantity": 16,
+                "typeID": 84182
+            },
+            {
+                "quantity": 32,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78508
+            }
+        ],
+        "manufacturing_time": 4230
+    },
+    "89083": {
+        "blueprintTypeID": 89083,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 400,
+                "typeID": 77805
+            },
+            {
+                "quantity": 400,
+                "typeID": 88234
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 100,
+                "typeID": 82130
+            }
+        ],
+        "manufacturing_time": 159
+    },
+    "88871": {
+        "blueprintTypeID": 88871,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88841
+            }
+        ],
+        "manufacturing_time": 106
+    },
+    "88699": {
+        "blueprintTypeID": 88699,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 6,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88320
+            }
+        ],
+        "manufacturing_time": 49
+    },
+    "88868": {
+        "blueprintTypeID": 88868,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 120,
+                "typeID": 77801
+            },
+            {
+                "quantity": 45,
+                "typeID": 88234
+            },
+            {
+                "quantity": 105,
+                "typeID": 88235
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88780
+            }
+        ],
+        "manufacturing_time": 1107
+    },
+    "88289": {
+        "blueprintTypeID": 88289,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77800
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 2,
+                "typeID": 77804
+            },
+            {
+                "quantity": 19,
+                "typeID": 88235
+            },
+            {
+                "quantity": 63,
+                "typeID": 77803
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88940": {
+        "blueprintTypeID": 88940,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 100,
+                "typeID": 78447
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88781
+            },
+            {
+                "quantity": 16,
+                "typeID": 88783
+            }
+        ],
+        "manufacturing_time": 34
+    },
+    "88778": {
+        "blueprintTypeID": 88778,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88765
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 77804
+            },
+            {
+                "quantity": 7,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "89008": {
+        "blueprintTypeID": 89008,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 1,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83618
+            }
+        ],
+        "manufacturing_time": 159
+    },
+    "88756": {
+        "blueprintTypeID": 88756,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87927
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89010": {
+        "blueprintTypeID": 89010,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 11,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83620
+            }
+        ],
+        "manufacturing_time": 835
+    },
+    "88983": {
+        "blueprintTypeID": 88983,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 81656
+            }
+        ],
+        "manufacturing_time": 137
+    },
+    "88898": {
+        "blueprintTypeID": 88898,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 150,
+                "typeID": 88319
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83839
+            }
+        ],
+        "manufacturing_time": 30
+    },
+    "88941": {
+        "blueprintTypeID": 88941,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 100,
+                "typeID": 78448
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88781
+            },
+            {
+                "quantity": 4,
+                "typeID": 88782
+            },
+            {
+                "quantity": 8,
+                "typeID": 88783
+            }
+        ],
+        "manufacturing_time": 34
+    },
+    "88954": {
+        "blueprintTypeID": 88954,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 230,
+                "typeID": 77801
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 100,
+                "typeID": 82128
+            }
+        ],
+        "manufacturing_time": 132
+    },
+    "88611": {
+        "blueprintTypeID": 88611,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 728,
+                "typeID": 77811
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 14,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_time": 20
+    },
+    "88698": {
+        "blueprintTypeID": 88698,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 84180
+            },
+            {
+                "quantity": 17,
+                "typeID": 84182
+            },
+            {
+                "quantity": 5,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88338
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88884": {
+        "blueprintTypeID": 88884,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88565
+            },
+            {
+                "quantity": 1,
+                "typeID": 88780
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 79196
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89019": {
+        "blueprintTypeID": 89019,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 84180
+            },
+            {
+                "quantity": 3,
+                "typeID": 84182
+            },
+            {
+                "quantity": 4,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83517
+            }
+        ],
+        "manufacturing_time": 777
+    },
+    "88870": {
+        "blueprintTypeID": 88870,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 88839
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88840
+            }
+        ],
+        "manufacturing_time": 223
+    },
+    "89093": {
+        "blueprintTypeID": 89093,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 70,
+                "typeID": 77805
+            },
+            {
+                "quantity": 6,
+                "typeID": 84182
+            },
+            {
+                "quantity": 560,
+                "typeID": 88335
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88889
+            }
+        ],
+        "manufacturing_time": 452
+    },
+    "88694": {
+        "blueprintTypeID": 88694,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 70,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87964
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "89045": {
+        "blueprintTypeID": 89045,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 6,
+                "typeID": 84182
+            },
+            {
+                "quantity": 6,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83777
+            }
+        ],
+        "manufacturing_time": 201
+    },
+    "88828": {
+        "blueprintTypeID": 88828,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 500,
+                "typeID": 87946
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89000": {
+        "blueprintTypeID": 89000,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83442
+            }
+        ],
+        "manufacturing_time": 194
+    },
+    "89032": {
+        "blueprintTypeID": 89032,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 8,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82653
+            }
+        ],
+        "manufacturing_time": 207
+    },
+    "89043": {
+        "blueprintTypeID": 89043,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 19,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83774
+            }
+        ],
+        "manufacturing_time": 881
+    },
+    "89090": {
+        "blueprintTypeID": 89090,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 65,
+                "typeID": 84182
+            },
+            {
+                "quantity": 65,
+                "typeID": 84210
+            },
+            {
+                "quantity": 65,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 89089
+            }
+        ],
+        "manufacturing_time": 120
+    },
+    "89040": {
+        "blueprintTypeID": 89040,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 19,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83770
+            }
+        ],
+        "manufacturing_time": 949
+    },
+    "88986": {
+        "blueprintTypeID": 88986,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 120,
+                "typeID": 77805
+            },
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 81972
+            }
+        ],
+        "manufacturing_time": 115
+    },
+    "89052": {
+        "blueprintTypeID": 89052,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82648
+            }
+        ],
+        "manufacturing_time": 172
+    },
+    "89086": {
+        "blueprintTypeID": 89086,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 77801
+            },
+            {
+                "quantity": 10,
+                "typeID": 77805
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 100,
+                "typeID": 81658
+            }
+        ],
+        "manufacturing_time": 154
+    },
+    "89094": {
+        "blueprintTypeID": 89094,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 70,
+                "typeID": 77805
+            },
+            {
+                "quantity": 6,
+                "typeID": 84182
+            },
+            {
+                "quantity": 560,
+                "typeID": 88335
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87599
+            }
+        ],
+        "manufacturing_time": 904
+    },
+    "88997": {
+        "blueprintTypeID": 88997,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82651
+            }
+        ],
+        "manufacturing_time": 111
+    },
+    "88738": {
+        "blueprintTypeID": 88738,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84182
+            },
+            {
+                "quantity": 2,
+                "typeID": 84180
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88333
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88345": {
+        "blueprintTypeID": 88345,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 30,
+                "typeID": 77729
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 16,
+                "typeID": 83839
+            },
+            {
+                "quantity": 28,
+                "typeID": 77728
+            }
+        ],
+        "manufacturing_time": 50
+    },
+    "88872": {
+        "blueprintTypeID": 88872,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 88841
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88842
+            }
+        ],
+        "manufacturing_time": 194
+    },
+    "88754": {
+        "blueprintTypeID": 88754,
+        "maxProductionLimit": 0
+    },
+    "89024": {
+        "blueprintTypeID": 89024,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 84180
+            },
+            {
+                "quantity": 3,
+                "typeID": 84182
+            },
+            {
+                "quantity": 5,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83521
+            }
+        ],
+        "manufacturing_time": 760
+    },
+    "89035": {
+        "blueprintTypeID": 89035,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 12,
+                "typeID": 84180
+            },
+            {
+                "quantity": 24,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83456
+            }
+        ],
+        "manufacturing_time": 505
+    },
+    "89027": {
+        "blueprintTypeID": 89027,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 7,
+                "typeID": 84182
+            },
+            {
+                "quantity": 13,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83498
+            }
+        ],
+        "manufacturing_time": 469
+    },
+    "88836": {
+        "blueprintTypeID": 88836,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 600,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 150,
+                "typeID": 88335
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89011": {
+        "blueprintTypeID": 89011,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 1,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83623
+            }
+        ],
+        "manufacturing_time": 159
+    },
+    "88952": {
+        "blueprintTypeID": 88952,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 7,
+                "typeID": 84180
+            },
+            {
+                "quantity": 15,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83524
+            }
+        ],
+        "manufacturing_time": 14863
+    },
+    "88703": {
+        "blueprintTypeID": 88703,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87940
+            }
+        ],
+        "manufacturing_time": 41
+    },
+    "88990": {
+        "blueprintTypeID": 88990,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            },
+            {
+                "quantity": 170,
+                "typeID": 88235
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82085
+            }
+        ],
+        "manufacturing_time": 577
+    },
+    "88834": {
+        "blueprintTypeID": 88834,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 500,
+                "typeID": 87960
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88631": {
+        "blueprintTypeID": 88631,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87906
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88609": {
+        "blueprintTypeID": 88609,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1050,
+                "typeID": 77801
+            },
+            {
+                "quantity": 1050,
+                "typeID": 88235
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 14,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_time": 16
+    },
+    "88869": {
+        "blueprintTypeID": 88869,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 84180
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88839
+            }
+        ],
+        "manufacturing_time": 78
+    },
+    "89009": {
+        "blueprintTypeID": 89009,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 4,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83619
+            }
+        ],
+        "manufacturing_time": 362
+    },
+    "89056": {
+        "blueprintTypeID": 89056,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84182
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83433
+            }
+        ],
+        "manufacturing_time": 357
+    },
+    "89039": {
+        "blueprintTypeID": 89039,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 16,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83769
+            }
+        ],
+        "manufacturing_time": 461
+    },
+    "88610": {
+        "blueprintTypeID": 88610,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3150,
+                "typeID": 77804
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 14,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_time": 17
+    },
+    "88696": {
+        "blueprintTypeID": 88696,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 84180
+            },
+            {
+                "quantity": 19,
+                "typeID": 84182
+            },
+            {
+                "quantity": 6,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88336
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88706": {
+        "blueprintTypeID": 88706,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 84180
+            },
+            {
+                "quantity": 9,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88425
+            }
+        ],
+        "manufacturing_time": 53
+    },
+    "88943": {
+        "blueprintTypeID": 88943,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78420
+            },
+            {
+                "quantity": 56,
+                "typeID": 84204
+            },
+            {
+                "quantity": 28,
+                "typeID": 88841
+            },
+            {
+                "quantity": 28,
+                "typeID": 88843
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 81609
+            }
+        ],
+        "manufacturing_time": 8200
+    },
+    "89037": {
+        "blueprintTypeID": 89037,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 15,
+                "typeID": 77805
+            },
+            {
+                "quantity": 20,
+                "typeID": 84180
+            },
+            {
+                "quantity": 19,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83458
+            }
+        ],
+        "manufacturing_time": 496
+    },
+    "88881": {
+        "blueprintTypeID": 88881,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88565
+            },
+            {
+                "quantity": 1,
+                "typeID": 88780
+            },
+            {
+                "quantity": 38,
+                "typeID": 88783
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78420
+            }
+        ],
+        "manufacturing_time": 226
+    },
+    "88946": {
+        "blueprintTypeID": 88946,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78416
+            },
+            {
+                "quantity": 136,
+                "typeID": 84204
+            },
+            {
+                "quantity": 68,
+                "typeID": 88841
+            },
+            {
+                "quantity": 68,
+                "typeID": 88843
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 81808
+            }
+        ],
+        "manufacturing_time": 151200
+    },
+    "89048": {
+        "blueprintTypeID": 89048,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 8,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83782
+            }
+        ],
+        "manufacturing_time": 184
+    },
+    "88701": {
+        "blueprintTypeID": 88701,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 84180
+            },
+            {
+                "quantity": 6,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88344
+            }
+        ],
+        "manufacturing_time": 49
+    },
+    "88288": {
+        "blueprintTypeID": 88288,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77800
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 2,
+                "typeID": 77804
+            },
+            {
+                "quantity": 63,
+                "typeID": 77803
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89021": {
+        "blueprintTypeID": 89021,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            },
+            {
+                "quantity": 5,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83519
+            }
+        ],
+        "manufacturing_time": 3274
+    },
+    "88883": {
+        "blueprintTypeID": 88883,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88565
+            },
+            {
+                "quantity": 1,
+                "typeID": 88780
+            },
+            {
+                "quantity": 1347,
+                "typeID": 88782
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78422
+            }
+        ],
+        "manufacturing_time": 1597
+    },
+    "88346": {
+        "blueprintTypeID": 88346,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 30,
+                "typeID": 78434
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83839
+            },
+            {
+                "quantity": 28,
+                "typeID": 78435
+            }
+        ],
+        "manufacturing_time": 50
+    },
+    "88292": {
+        "blueprintTypeID": 88292,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77810
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 2,
+                "typeID": 77805
+            },
+            {
+                "quantity": 29,
+                "typeID": 77803
+            },
+            {
+                "quantity": 66,
+                "typeID": 77801
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89004": {
+        "blueprintTypeID": 89004,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82413
+            }
+        ],
+        "manufacturing_time": 222
+    },
+    "89044": {
+        "blueprintTypeID": 89044,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 22,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83775
+            }
+        ],
+        "manufacturing_time": 1811
+    },
+    "88693": {
+        "blueprintTypeID": 88693,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 160,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87963
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "89007": {
+        "blueprintTypeID": 89007,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 20,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83615
+            }
+        ],
+        "manufacturing_time": 916
+    },
+    "88989": {
+        "blueprintTypeID": 88989,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            },
+            {
+                "quantity": 125,
+                "typeID": 88235
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82084
+            }
+        ],
+        "manufacturing_time": 276
+    },
+    "89015": {
+        "blueprintTypeID": 89015,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 12,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83629
+            }
+        ],
+        "manufacturing_time": 405
+    },
+    "89084": {
+        "blueprintTypeID": 89084,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 400,
+                "typeID": 77805
+            },
+            {
+                "quantity": 400,
+                "typeID": 88234
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 100,
+                "typeID": 82131
+            }
+        ],
+        "manufacturing_time": 318
+    },
+    "88998": {
+        "blueprintTypeID": 88998,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83437
+            }
+        ],
+        "manufacturing_time": 222
+    },
+    "88874": {
+        "blueprintTypeID": 88874,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 84204
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 84206
+            }
+        ],
+        "manufacturing_time": 242
+    },
+    "88867": {
+        "blueprintTypeID": 88867,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 88843
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88844
+            }
+        ],
+        "manufacturing_time": 242
+    },
+    "89002": {
+        "blueprintTypeID": 89002,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82411
+            }
+        ],
+        "manufacturing_time": 248
+    },
+    "88293": {
+        "blueprintTypeID": 88293,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77810
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 2,
+                "typeID": 77805
+            },
+            {
+                "quantity": 3,
+                "typeID": 88235
+            },
+            {
+                "quantity": 29,
+                "typeID": 77803
+            },
+            {
+                "quantity": 29,
+                "typeID": 88234
+            },
+            {
+                "quantity": 66,
+                "typeID": 77801
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88835": {
+        "blueprintTypeID": 88835,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 83839
+            },
+            {
+                "quantity": 200,
+                "typeID": 88335
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 200,
+                "typeID": 88319
+            }
+        ],
+        "manufacturing_time": 18
+    },
+    "88829": {
+        "blueprintTypeID": 88829,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 500,
+                "typeID": 87955
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89085": {
+        "blueprintTypeID": 89085,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 230,
+                "typeID": 77801
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 100,
+                "typeID": 82133
+            }
+        ],
+        "manufacturing_time": 132
+    },
+    "88735": {
+        "blueprintTypeID": 88735,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 20,
+                "typeID": 77803
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88321
+            }
+        ],
+        "manufacturing_time": 8
+    },
+    "88294": {
+        "blueprintTypeID": 88294,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77811
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 16,
+                "typeID": 77804
+            },
+            {
+                "quantity": 41,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88779": {
+        "blueprintTypeID": 88779,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 88765
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88782
+            },
+            {
+                "quantity": 1,
+                "typeID": 88783
+            },
+            {
+                "quantity": 50,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_time": 11
+    },
+    "89049": {
+        "blueprintTypeID": 89049,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83783
+            }
+        ],
+        "manufacturing_time": 387
+    },
+    "88882": {
+        "blueprintTypeID": 88882,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88565
+            },
+            {
+                "quantity": 1,
+                "typeID": 88780
+            },
+            {
+                "quantity": 38,
+                "typeID": 88783
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78421
+            }
+        ],
+        "manufacturing_time": 226
+    },
+    "88942": {
+        "blueprintTypeID": 88942,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 100,
+                "typeID": 78449
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88781
+            },
+            {
+                "quantity": 8,
+                "typeID": 88782
+            }
+        ],
+        "manufacturing_time": 34
+    },
+    "88760": {
+        "blueprintTypeID": 88760,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78418
+            },
+            {
+                "quantity": 33,
+                "typeID": 84210
+            },
+            {
+                "quantity": 33,
+                "typeID": 88561
+            },
+            {
+                "quantity": 66,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87848
+            }
+        ],
+        "manufacturing_time": 150
+    },
+    "88876": {
+        "blueprintTypeID": 88876,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88565
+            },
+            {
+                "quantity": 1,
+                "typeID": 88780
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78415
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89059": {
+        "blueprintTypeID": 89059,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            },
+            {
+                "quantity": 8,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78511
+            }
+        ],
+        "manufacturing_time": 413
+    },
+    "89018": {
+        "blueprintTypeID": 89018,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 3,
+                "typeID": 84182
+            },
+            {
+                "quantity": 3,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83516
+            }
+        ],
+        "manufacturing_time": 371
+    },
+    "88592": {
+        "blueprintTypeID": 88592,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 140,
+                "typeID": 77810
+            },
+            {
+                "quantity": 378,
+                "typeID": 77800
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 14,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_time": 19
+    },
+    "88866": {
+        "blueprintTypeID": 88866,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88843
+            }
+        ],
+        "manufacturing_time": 97
+    },
+    "89057": {
+        "blueprintTypeID": 89057,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84182
+            },
+            {
+                "quantity": 4,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 77753
+            }
+        ],
+        "manufacturing_time": 89
+    },
+    "89041": {
+        "blueprintTypeID": 89041,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 12,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83772
+            }
+        ],
+        "manufacturing_time": 201
+    },
+    "88758": {
+        "blueprintTypeID": 88758,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78418
+            },
+            {
+                "quantity": 44,
+                "typeID": 84210
+            },
+            {
+                "quantity": 44,
+                "typeID": 88561
+            },
+            {
+                "quantity": 88,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 85156
+            }
+        ],
+        "manufacturing_time": 80
+    },
+    "88947": {
+        "blueprintTypeID": 88947,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78421
+            },
+            {
+                "quantity": 148,
+                "typeID": 84204
+            },
+            {
+                "quantity": 74,
+                "typeID": 88841
+            },
+            {
+                "quantity": 74,
+                "typeID": 88843
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82424
+            }
+        ],
+        "manufacturing_time": 82800
+    },
+    "88944": {
+        "blueprintTypeID": 88944,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78417
+            },
+            {
+                "quantity": 58,
+                "typeID": 84204
+            },
+            {
+                "quantity": 29,
+                "typeID": 88841
+            },
+            {
+                "quantity": 29,
+                "typeID": 88843
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82426
+            }
+        ],
+        "manufacturing_time": 8320
+    },
+    "88737": {
+        "blueprintTypeID": 88737,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88332
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89013": {
+        "blueprintTypeID": 89013,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 8,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83625
+            }
+        ],
+        "manufacturing_time": 796
+    },
+    "89034": {
+        "blueprintTypeID": 89034,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 8,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82654
+            }
+        ],
+        "manufacturing_time": 207
+    },
+    "88831": {
+        "blueprintTypeID": 88831,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 500,
+                "typeID": 87957
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88879": {
+        "blueprintTypeID": 88879,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 83818
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78418
+            }
+        ],
+        "manufacturing_time": 83
+    },
+    "88875": {
+        "blueprintTypeID": 88875,
+        "maxProductionLimit": 5,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 83839
+            },
+            {
+                "quantity": 5,
+                "typeID": 88564
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88565
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88700": {
+        "blueprintTypeID": 88700,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 7,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88343
+            }
+        ],
+        "manufacturing_time": 51
+    },
+    "88955": {
+        "blueprintTypeID": 88955,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84182
+            },
+            {
+                "quantity": 95,
+                "typeID": 77804
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 81846
+            }
+        ],
+        "manufacturing_time": 39
+    },
+    "89055": {
+        "blueprintTypeID": 89055,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 6,
+                "typeID": 84210
+            },
+            {
+                "quantity": 6,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83429
+            }
+        ],
+        "manufacturing_time": 421
+    },
+    "88878": {
+        "blueprintTypeID": 88878,
+        "maxProductionLimit": 5,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88565
+            },
+            {
+                "quantity": 1,
+                "typeID": 88780
+            },
+            {
+                "quantity": 38,
+                "typeID": 88783
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78417
+            }
+        ],
+        "manufacturing_time": 226
+    },
+    "88574": {
+        "blueprintTypeID": 88574,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 37,
+                "typeID": 77803
+            },
+            {
+                "quantity": 22,
+                "typeID": 77804
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            }
+        ],
+        "manufacturing_time": 38
+    },
+    "89016": {
+        "blueprintTypeID": 89016,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 24,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83630
+            }
+        ],
+        "manufacturing_time": 923
+    },
+    "88704": {
+        "blueprintTypeID": 88704,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88339
+            }
+        ],
+        "manufacturing_time": 41
+    },
+    "88996": {
+        "blueprintTypeID": 88996,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83536
+            }
+        ],
+        "manufacturing_time": 194
+    },
+    "88762": {
+        "blueprintTypeID": 88762,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78418
+            },
+            {
+                "quantity": 25,
+                "typeID": 84210
+            },
+            {
+                "quantity": 25,
+                "typeID": 88561
+            },
+            {
+                "quantity": 50,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87846
+            }
+        ],
+        "manufacturing_time": 130
+    },
+    "88297": {
+        "blueprintTypeID": 88297,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 78426
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 3,
+                "typeID": 77805
+            },
+            {
+                "quantity": 98,
+                "typeID": 77801
+            }
+        ],
+        "manufacturing_time": 9
+    },
+    "88945": {
+        "blueprintTypeID": 88945,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78421
+            },
+            {
+                "quantity": 96,
+                "typeID": 84204
+            },
+            {
+                "quantity": 48,
+                "typeID": 88841
+            },
+            {
+                "quantity": 48,
+                "typeID": 88843
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 81904
+            }
+        ],
+        "manufacturing_time": 79200
+    },
+    "88984": {
+        "blueprintTypeID": 88984,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82090
+            }
+        ],
+        "manufacturing_time": 301
+    },
+    "88736": {
+        "blueprintTypeID": 88736,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87945
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89014": {
+        "blueprintTypeID": 89014,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 4,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83628
+            }
+        ],
+        "manufacturing_time": 181
+    },
+    "88290": {
+        "blueprintTypeID": 88290,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77800
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 2,
+                "typeID": 77804
+            },
+            {
+                "quantity": 3,
+                "typeID": 88234
+            },
+            {
+                "quantity": 7,
+                "typeID": 77801
+            },
+            {
+                "quantity": 19,
+                "typeID": 88235
+            },
+            {
+                "quantity": 63,
+                "typeID": 77803
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88939": {
+        "blueprintTypeID": 88939,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 100,
+                "typeID": 78446
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88781
+            },
+            {
+                "quantity": 126,
+                "typeID": 77804
+            },
+            {
+                "quantity": 349,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_time": 34
+    },
+    "88987": {
+        "blueprintTypeID": 88987,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 140,
+                "typeID": 77805
+            },
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82088
+            }
+        ],
+        "manufacturing_time": 249
+    },
+    "88991": {
+        "blueprintTypeID": 88991,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            },
+            {
+                "quantity": 90,
+                "typeID": 88234
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82032
+            }
+        ],
+        "manufacturing_time": 132
+    },
+    "89030": {
+        "blueprintTypeID": 89030,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 56,
+                "typeID": 84182
+            },
+            {
+                "quantity": 104,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83501
+            }
+        ],
+        "manufacturing_time": 5144
+    },
+    "88953": {
+        "blueprintTypeID": 88953,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 29,
+                "typeID": 77800
+            },
+            {
+                "quantity": 12,
+                "typeID": 77810
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 81974
+            }
+        ],
+        "manufacturing_time": 156
+    },
+    "88993": {
+        "blueprintTypeID": 88993,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            },
+            {
+                "quantity": 210,
+                "typeID": 88234
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82087
+            }
+        ],
+        "manufacturing_time": 597
+    },
+    "88832": {
+        "blueprintTypeID": 88832,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 500,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 500,
+                "typeID": 87958
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89025": {
+        "blueprintTypeID": 89025,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            },
+            {
+                "quantity": 5,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83522
+            }
+        ],
+        "manufacturing_time": 1553
+    },
+    "88901": {
+        "blueprintTypeID": 88901,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 78435
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 600,
+                "typeID": 78516
+            }
+        ],
+        "manufacturing_time": 58
+    },
+    "88755": {
+        "blueprintTypeID": 88755,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 20,
+                "typeID": 77804
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88426
+            }
+        ],
+        "manufacturing_time": 8
+    },
+    "88295": {
+        "blueprintTypeID": 88295,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77811
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 8,
+                "typeID": 88234
+            },
+            {
+                "quantity": 16,
+                "typeID": 77804
+            },
+            {
+                "quantity": 41,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89001": {
+        "blueprintTypeID": 89001,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82410
+            }
+        ],
+        "manufacturing_time": 222
+    },
+    "89082": {
+        "blueprintTypeID": 89082,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 230,
+                "typeID": 77801
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 100,
+                "typeID": 82127
+            }
+        ],
+        "manufacturing_time": 527
+    },
+    "88298": {
+        "blueprintTypeID": 88298,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 78429
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 8,
+                "typeID": 88234
+            },
+            {
+                "quantity": 93,
+                "typeID": 77804
+            }
+        ],
+        "manufacturing_time": 13
+    },
+    "88691": {
+        "blueprintTypeID": 88691,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 80,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87961
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "89113": {
+        "blueprintTypeID": 89113,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 77810
+            },
+            {
+                "quantity": 115,
+                "typeID": 88335
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 10,
+                "typeID": 88887
+            }
+        ],
+        "manufacturing_time": 147
+    },
+    "88957": {
+        "blueprintTypeID": 88957,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82647
+            }
+        ],
+        "manufacturing_time": 155
+    },
+    "88902": {
+        "blueprintTypeID": 88902,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77728
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 600,
+                "typeID": 84868
+            }
+        ],
+        "manufacturing_time": 58
+    },
+    "89047": {
+        "blueprintTypeID": 89047,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 9,
+                "typeID": 84182
+            },
+            {
+                "quantity": 8,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83779
+            }
+        ],
+        "manufacturing_time": 863
+    },
+    "88948": {
+        "blueprintTypeID": 88948,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78422
+            },
+            {
+                "quantity": 320,
+                "typeID": 84206
+            },
+            {
+                "quantity": 160,
+                "typeID": 88842
+            },
+            {
+                "quantity": 160,
+                "typeID": 88844
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 81611
+            }
+        ],
+        "manufacturing_time": 324000
+    },
+    "89038": {
+        "blueprintTypeID": 89038,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 12,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83768
+            }
+        ],
+        "manufacturing_time": 218
+    },
+    "88951": {
+        "blueprintTypeID": 88951,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 84180
+            },
+            {
+                "quantity": 10,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83528
+            },
+            {
+                "quantity": 1,
+                "typeID": 88951
+            }
+        ],
+        "manufacturing_time": 863
+    },
+    "88612": {
+        "blueprintTypeID": 88612,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 210,
+                "typeID": 88235
+            },
+            {
+                "quantity": 630,
+                "typeID": 77803
+            },
+            {
+                "quantity": 1260,
+                "typeID": 77804
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 14,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_time": 16
+    },
+    "89042": {
+        "blueprintTypeID": 89042,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 16,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83773
+            }
+        ],
+        "manufacturing_time": 426
+    },
+    "88707": {
+        "blueprintTypeID": 88707,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 100,
+                "typeID": 2272
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88707
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89051": {
+        "blueprintTypeID": 89051,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 7,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83421
+            }
+        ],
+        "manufacturing_time": 357
+    },
+    "89058": {
+        "blueprintTypeID": 89058,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            },
+            {
+                "quantity": 8,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78490
+            }
+        ],
+        "manufacturing_time": 825
+    },
+    "88705": {
+        "blueprintTypeID": 88705,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88340
+            }
+        ],
+        "manufacturing_time": 41
+    },
+    "88690": {
+        "blueprintTypeID": 88690,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 19,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87909
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88988": {
+        "blueprintTypeID": 88988,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 220,
+                "typeID": 77805
+            },
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82089
+            }
+        ],
+        "manufacturing_time": 505
+    },
+    "88697": {
+        "blueprintTypeID": 88697,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 23,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88337
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88985": {
+        "blueprintTypeID": 88985,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82091
+            }
+        ],
+        "manufacturing_time": 620
+    },
+    "88689": {
+        "blueprintTypeID": 88689,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 84180
+            },
+            {
+                "quantity": 17,
+                "typeID": 84182
+            },
+            {
+                "quantity": 5,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87908
+            },
+            {
+                "quantity": 1,
+                "typeID": 88689
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88959": {
+        "blueprintTypeID": 88959,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 8,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82652
+            }
+        ],
+        "manufacturing_time": 207
+    },
+    "88291": {
+        "blueprintTypeID": 88291,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77810
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 29,
+                "typeID": 77803
+            },
+            {
+                "quantity": 66,
+                "typeID": 77801
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89050": {
+        "blueprintTypeID": 89050,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 12,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83784
+            }
+        ],
+        "manufacturing_time": 804
+    },
+    "89022": {
+        "blueprintTypeID": 89022,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84182
+            },
+            {
+                "quantity": 4,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82683
+            }
+        ],
+        "manufacturing_time": 178
+    },
+    "88873": {
+        "blueprintTypeID": 88873,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 84204
+            }
+        ],
+        "manufacturing_time": 97
+    },
+    "89028": {
+        "blueprintTypeID": 89028,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 14,
+                "typeID": 84182
+            },
+            {
+                "quantity": 26,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83499
+            }
+        ],
+        "manufacturing_time": 1054
+    },
+    "89029": {
+        "blueprintTypeID": 89029,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 28,
+                "typeID": 84182
+            },
+            {
+                "quantity": 52,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83500
+            }
+        ],
+        "manufacturing_time": 2339
+    },
+    "88830": {
+        "blueprintTypeID": 88830,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 500,
+                "typeID": 87956
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88992": {
+        "blueprintTypeID": 88992,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 84182
+            },
+            {
+                "quantity": 150,
+                "typeID": 88234
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82086
+            }
+        ],
+        "manufacturing_time": 283
+    },
+    "89081": {
+        "blueprintTypeID": 89081,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 230,
+                "typeID": 77801
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 100,
+                "typeID": 82126
+            }
+        ],
+        "manufacturing_time": 264
+    },
+    "89092": {
+        "blueprintTypeID": 89092,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 35,
+                "typeID": 77805
+            },
+            {
+                "quantity": 3,
+                "typeID": 84182
+            },
+            {
+                "quantity": 280,
+                "typeID": 88335
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88886
+            }
+        ],
+        "manufacturing_time": 197
+    },
+    "88296": {
+        "blueprintTypeID": 88296,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 77811
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 7,
+                "typeID": 88235
+            },
+            {
+                "quantity": 8,
+                "typeID": 88234
+            },
+            {
+                "quantity": 16,
+                "typeID": 77804
+            },
+            {
+                "quantity": 31,
+                "typeID": 77803
+            },
+            {
+                "quantity": 41,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88999": {
+        "blueprintTypeID": 88999,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83441
+            }
+        ],
+        "manufacturing_time": 97
+    },
+    "89036": {
+        "blueprintTypeID": 89036,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 13,
+                "typeID": 77805
+            },
+            {
+                "quantity": 17,
+                "typeID": 84180
+            },
+            {
+                "quantity": 17,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82667
+            }
+        ],
+        "manufacturing_time": 243
+    },
+    "89012": {
+        "blueprintTypeID": 89012,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 3,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83624
+            }
+        ],
+        "manufacturing_time": 350
+    },
+    "88900": {
+        "blueprintTypeID": 88900,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 44,
+                "typeID": 83899
+            },
+            {
+                "quantity": 600,
+                "typeID": 84868
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 600,
+                "typeID": 78515
+            }
+        ],
+        "manufacturing_time": 2054
+    },
+    "88761": {
+        "blueprintTypeID": 88761,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78418
+            },
+            {
+                "quantity": 56,
+                "typeID": 84182
+            },
+            {
+                "quantity": 304,
+                "typeID": 77804
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87847
+            }
+        ],
+        "manufacturing_time": 60
+    },
+    "88880": {
+        "blueprintTypeID": 88880,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88565
+            },
+            {
+                "quantity": 1,
+                "typeID": 88780
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78419
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88739": {
+        "blueprintTypeID": 88739,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84182
+            },
+            {
+                "quantity": 2,
+                "typeID": 84180
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88334
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89017": {
+        "blueprintTypeID": 89017,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84182
+            },
+            {
+                "quantity": 3,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82682
+            }
+        ],
+        "manufacturing_time": 181
+    },
+    "88949": {
+        "blueprintTypeID": 88949,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 20,
+                "typeID": 77803
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83463
+            }
+        ],
+        "manufacturing_time": 30
+    },
+    "89003": {
+        "blueprintTypeID": 89003,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 1,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82412
+            }
+        ],
+        "manufacturing_time": 222
+    },
+    "88833": {
+        "blueprintTypeID": 88833,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 5,
+                "typeID": 78423
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 500,
+                "typeID": 87959
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "89026": {
+        "blueprintTypeID": 89026,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            },
+            {
+                "quantity": 6,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83523
+            }
+        ],
+        "manufacturing_time": 3192
+    },
+    "88630": {
+        "blueprintTypeID": 88630,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87905
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88956": {
+        "blueprintTypeID": 88956,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84182
+            },
+            {
+                "quantity": 7,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83497
+            }
+        ],
+        "manufacturing_time": 209
+    },
+    "88770": {
+        "blueprintTypeID": 88770,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 88764
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_time": 5
+    },
+    "88899": {
+        "blueprintTypeID": 88899,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 60,
+                "typeID": 83899
+            },
+            {
+                "quantity": 600,
+                "typeID": 78516
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 600,
+                "typeID": 78437
+            }
+        ],
+        "manufacturing_time": 4116
+    },
+    "88771": {
+        "blueprintTypeID": 88771,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 88764
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 84210
+            },
+            {
+                "quantity": 2,
+                "typeID": 88561
+            },
+            {
+                "quantity": 6,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_time": 17
+    },
+    "88759": {
+        "blueprintTypeID": 88759,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 78418
+            },
+            {
+                "quantity": 34,
+                "typeID": 84182
+            },
+            {
+                "quantity": 17,
+                "typeID": 84210
+            },
+            {
+                "quantity": 17,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87698
+            }
+        ],
+        "manufacturing_time": 60
+    },
+    "89046": {
+        "blueprintTypeID": 89046,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 7,
+                "typeID": 84182
+            },
+            {
+                "quantity": 7,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83778
+            }
+        ],
+        "manufacturing_time": 415
+    },
+    "89020": {
+        "blueprintTypeID": 89020,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            },
+            {
+                "quantity": 4,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83518
+            }
+        ],
+        "manufacturing_time": 1585
+    },
+    "89005": {
+        "blueprintTypeID": 89005,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 4,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83613
+            }
+        ],
+        "manufacturing_time": 181
+    },
+    "89054": {
+        "blueprintTypeID": 89054,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 3,
+                "typeID": 84210
+            },
+            {
+                "quantity": 3,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82649
+            }
+        ],
+        "manufacturing_time": 182
+    },
+    "88692": {
+        "blueprintTypeID": 88692,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 160,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87962
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88695": {
+        "blueprintTypeID": 88695,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 10,
+                "typeID": 84180
+            },
+            {
+                "quantity": 26,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 88324
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "88702": {
+        "blueprintTypeID": 88702,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87927
+            }
+        ],
+        "manufacturing_time": 41
+    },
+    "89031": {
+        "blueprintTypeID": 89031,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 12,
+                "typeID": 84180
+            },
+            {
+                "quantity": 24,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83448
+            }
+        ],
+        "manufacturing_time": 505
+    },
+    "88950": {
+        "blueprintTypeID": 88950,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 3,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 77852
+            }
+        ],
+        "manufacturing_time": 167
+    },
+    "88688": {
+        "blueprintTypeID": 88688,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84182
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 87907
+            }
+        ],
+        "manufacturing_time": 1
+    },
+    "89053": {
+        "blueprintTypeID": 89053,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 7,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83425
+            }
+        ],
+        "manufacturing_time": 391
+    },
+    "88995": {
+        "blueprintTypeID": 88995,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82681
+            }
+        ],
+        "manufacturing_time": 97
+    },
+    "89006": {
+        "blueprintTypeID": 89006,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 84180
+            },
+            {
+                "quantity": 2,
+                "typeID": 84210
+            },
+            {
+                "quantity": 9,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83614
+            }
+        ],
+        "manufacturing_time": 405
+    },
+    "89060": {
+        "blueprintTypeID": 89060,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 4,
+                "typeID": 84180
+            },
+            {
+                "quantity": 4,
+                "typeID": 84182
+            },
+            {
+                "quantity": 8,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78506
+            }
+        ],
+        "manufacturing_time": 207
+    },
+    "89033": {
+        "blueprintTypeID": 89033,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 12,
+                "typeID": 84180
+            },
+            {
+                "quantity": 24,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83450
+            }
+        ],
+        "manufacturing_time": 505
+    },
+    "88958": {
+        "blueprintTypeID": 88958,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84182
+            },
+            {
+                "quantity": 1,
+                "typeID": 84210
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 82650
+            }
+        ],
+        "manufacturing_time": 150
+    },
+    "88877": {
+        "blueprintTypeID": 88877,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 1,
+                "typeID": 88565
+            },
+            {
+                "quantity": 1,
+                "typeID": 88780
+            },
+            {
+                "quantity": 128,
+                "typeID": 88783
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 78416
+            }
+        ],
+        "manufacturing_time": 273
+    },
+    "89023": {
+        "blueprintTypeID": 89023,
+        "maxProductionLimit": 1000,
+        "manufacturing_materials": [
+            {
+                "quantity": 2,
+                "typeID": 84180
+            },
+            {
+                "quantity": 3,
+                "typeID": 84182
+            },
+            {
+                "quantity": 4,
+                "typeID": 88561
+            }
+        ],
+        "manufacturing_products": [
+            {
+                "quantity": 1,
+                "typeID": 83520
+            }
+        ],
+        "manufacturing_time": 366
+    }
+}

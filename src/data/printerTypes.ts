@@ -1,4 +1,5 @@
 import { Blueprint } from './blueprints';
+import printersData from './printers.json';
 
 export interface PrinterType {
   id: string;
@@ -6,32 +7,21 @@ export interface PrinterType {
   blueprints: Blueprint[];
 }
 
-export const printerTypeConfigs = [
-  {
-    id: 'material-processor',
-    name: 'Material Processor'
-  },
-  {
-    id: 'electronics-fabricator',
-    name: 'Electronics Fabricator'
-  },
-  {
-    id: 'ship-assembly',
-    name: 'Ship Assembly Plant'
-  },
-  {
-    id: 'defense-forge',
-    name: 'Defense Systems Forge'
-  },
-  {
-    id: 'industrial-fabricator',
-    name: 'Industrial Fabricator'
-  }
-];
+// Create printer type configs from the printers.json data
+export const printerTypeConfigs = Object.entries(printersData).map(([id, printer]) => ({
+  id: printer.typeNameID.toLowerCase().replace(/\s+/g, '-'),
+  name: printer.typeNameID,
+  includedTypeIDs: printer.includedTypeIDs
+}));
 
 export const createPrinterTypes = (blueprints: Blueprint[]): PrinterType[] => {
   return printerTypeConfigs.map(config => ({
-    ...config,
-    blueprints: blueprints.filter(bp => bp.printerType === config.name)
+    id: config.id,
+    name: config.name,
+    blueprints: blueprints.filter(bp => {
+      // Check if the blueprint's ID is in the printer's includedTypeIDs
+      const blueprintId = parseInt(bp.id);
+      return config.includedTypeIDs.includes(blueprintId);
+    })
   }));
 };

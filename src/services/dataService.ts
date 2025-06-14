@@ -1,7 +1,9 @@
-import { blueprints } from '../data/blueprints';
+import { blueprints as mockBlueprints } from '../data/blueprints';
 import { createPrinterTypes } from '../data/printerTypes';
 import { asteroidMining } from '../data/asteroidMining';
 import { Blueprint, PrinterType } from '../types';
+import { DataTransformer } from './dataTransformer';
+import rawBlueprints from '../data/blueprints.json';
 
 export class DataServiceError extends Error {
   constructor(message: string, public code: string) {
@@ -12,13 +14,19 @@ export class DataServiceError extends Error {
 
 // This will be replaced with real data fetching when available
 class DataService {
-  private useMockData: boolean = true;
+  private useMockData: boolean = false;
   private isLoading: boolean = false;
   private error: DataServiceError | null = null;
+  private dataTransformer: DataTransformer;
+  private cachedBlueprints: Blueprint[] | null = null;
 
-  // Toggle between mock and real data
+  constructor() {
+    this.dataTransformer = new DataTransformer({});
+  }
+
   setUseMockData(useMock: boolean) {
     this.useMockData = useMock;
+    this.cachedBlueprints = null;
   }
 
   getLoadingState(): boolean {
@@ -51,22 +59,22 @@ class DataService {
   async getBlueprints(): Promise<Blueprint[]> {
     return this.handleDataFetch(async () => {
       if (this.useMockData) {
-        return blueprints;
+        return mockBlueprints;
       }
-      // TODO: Replace with real data fetching
-      // return await fetchRealBlueprints();
-      return blueprints;
+
+      if (this.cachedBlueprints) {
+        return this.cachedBlueprints;
+      }
+
+      this.cachedBlueprints = await this.dataTransformer.transformBlueprints(rawBlueprints);
+      return this.cachedBlueprints;
     });
   }
 
   // Get printer types
   async getPrinterTypes(): Promise<PrinterType[]> {
     return this.handleDataFetch(async () => {
-      if (this.useMockData) {
-        return createPrinterTypes(blueprints);
-      }
-      // TODO: Replace with real data fetching
-      // return await fetchRealPrinterTypes();
+      const blueprints = await this.getBlueprints();
       return createPrinterTypes(blueprints);
     });
   }
@@ -77,8 +85,7 @@ class DataService {
       if (this.useMockData) {
         return asteroidMining;
       }
-      // TODO: Replace with real data fetching
-      // return await fetchRealAsteroidMining();
+      // TODO: Replace with real asteroid mining data
       return asteroidMining;
     });
   }
