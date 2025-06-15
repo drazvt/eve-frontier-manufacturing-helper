@@ -19,7 +19,6 @@ export interface RefineryType {
   name: string;
   blueprints: Blueprint[];
 }
-
 export interface MineralTotal {
   name: string;
   totalAmount: number;

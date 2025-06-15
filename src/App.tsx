@@ -412,7 +412,7 @@ function App() {
                         {/* Dropdown Content */}
                         {expandedPrinters.has(printer.id) && (
                           <div className="px-4 pt-2 pb-4 bg-eve-dark bg-opacity-50">
-                            <div className="space-y-2">
+                            <div className={`space-y-2 ${printer.blueprints.length > 10 ? 'max-h-[400px] overflow-y-auto' : ''}`}>
                               {printer.blueprints.map((blueprint) => (
                                 <div
                                   key={blueprint.id}
