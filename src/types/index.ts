@@ -14,11 +14,19 @@ export interface PrinterType {
   blueprints: Blueprint[];
 }
 
+export interface RefineryRecipe {
+  inputId: string;
+  inputName: string;
+  outputIds: string[];
+  outputNames: string[];
+}
+
 export interface RefineryType {
   id: string;
   name: string;
-  blueprints: Blueprint[];
+  recipes: RefineryRecipe[];
 }
+
 export interface MineralTotal {
   name: string;
   totalAmount: number;

@@ -125,8 +125,7 @@ class DataService {
   // Get refinery types
   async getRefineryTypes(): Promise<RefineryType[]> {
     return this.handleDataFetch(async () => {
-      const blueprints = await this.getBlueprints();
-      return createRefineryTypes(blueprints);
+      return await createRefineryTypes();
     });
   }
 }

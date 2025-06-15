@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { dataService, DataServiceError } from './services/dataService';
-import { Blueprint, PrinterType, MineralTotal } from './types';
+import { Blueprint, PrinterType, RefineryType, MineralTotal, RefineryRecipe } from './types';
 import { StagewiseToolbar } from '@stagewise/toolbar-react';
 import { ReactPlugin } from '@stagewise-plugins/react';
 
@@ -34,12 +34,15 @@ function App() {
   // State declarations
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedBlueprint, setSelectedBlueprint] = useState<Blueprint | null>(null);
+  const [selectedRefineryRecipe, setSelectedRefineryRecipe] = useState<RefineryRecipe | null>(null);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [focusedSuggestionIndex, setFocusedSuggestionIndex] = useState(-1);
   const [expandedPrinters, setExpandedPrinters] = useState<Set<string>>(new Set());
+  const [expandedRefineries, setExpandedRefineries] = useState<Set<string>>(new Set());
   const [showScrollIndicator, setShowScrollIndicator] = useState(false);
   const [blueprints, setBlueprints] = useState<Blueprint[]>([]);
   const [printerTypes, setPrinterTypes] = useState<PrinterType[]>([]);
+  const [refineryTypes, setRefineryTypes] = useState<RefineryType[]>([]);
   const [asteroidMiningData, setAsteroidMiningData] = useState<Record<string, string[]>>({});
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<DataServiceError | null>(null);
@@ -56,13 +59,15 @@ function App() {
       setError(null);
       
       try {
-        const [loadedBlueprints, loadedPrinterTypes, loadedAsteroidMining] = await Promise.all([
+        const [loadedBlueprints, loadedPrinterTypes, loadedRefineryTypes, loadedAsteroidMining] = await Promise.all([
           dataService.getBlueprints(),
           dataService.getPrinterTypes(),
+          dataService.getRefineryTypes(),
           dataService.getAsteroidMining()
         ]);
         setBlueprints(loadedBlueprints);
         setPrinterTypes(loadedPrinterTypes);
+        setRefineryTypes(loadedRefineryTypes);
         setAsteroidMiningData(loadedAsteroidMining);
       } catch (err) {
         setError(err instanceof DataServiceError ? err : new DataServiceError('Failed to load data', 'LOAD_ERROR'));
@@ -105,7 +110,7 @@ function App() {
       }
       window.removeEventListener('resize', handleResize);
     };
-  }, [expandedPrinters, selectedBlueprint]);
+  }, [expandedPrinters, expandedRefineries, selectedBlueprint]);
 
   // Click outside effect
   useEffect(() => {
@@ -183,8 +188,25 @@ function App() {
     setFocusedSuggestionIndex(-1);
   };
 
+  const selectRefineryRecipe = (recipe: RefineryRecipe, refinery: RefineryType) => {
+    setSelectedRefineryRecipe(recipe);
+    setSelectedBlueprint(null);
+  };
+
   const togglePrinterExpansion = (id: string) => {
     setExpandedPrinters(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(id)) {
+        newSet.delete(id);
+      } else {
+        newSet.add(id);
+      }
+      return newSet;
+    });
+  };
+
+  const toggleRefineryExpansion = (id: string) => {
+    setExpandedRefineries(prev => {
       const newSet = new Set(prev);
       if (newSet.has(id)) {
         newSet.delete(id);
@@ -390,55 +412,117 @@ function App() {
                         if (b.id === 'structures') return 1;
                         return a.name.localeCompare(b.name);
                       })
-                      .map((printer) => (
-                      <div key={printer.id} className="border-b border-eve-border last:border-b-0">
-                        <div
-                          onClick={() => togglePrinterExpansion(printer.id)}
-                          className="p-4 cursor-pointer hover:bg-eve-border hover:bg-opacity-60 transition-colors"
-                        >
-                          <div className="flex items-center justify-between">
-                            <div className="flex items-center space-x-3">
-                              <div className="flex-1">
-                                <h4 className="font-semibold text-sm tracking-wide">{printer.name}</h4>
-                                <p className="text-xs text-gray-400 tracking-wide">{printer.blueprints.length} blueprints</p>
+                      .map(printer => (
+                        <div key={printer.id} className="border-b border-eve-border last:border-b-0">
+                          <div
+                            onClick={() => togglePrinterExpansion(printer.id)}
+                            className="p-4 cursor-pointer hover:bg-eve-border hover:bg-opacity-60 transition-colors"
+                          >
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center space-x-3">
+                                <div className="flex-1">
+                                  <h4 className="font-semibold text-sm tracking-wide">{printer.name}</h4>
+                                  <p className="text-xs text-gray-400 tracking-wide">{printer.blueprints.length} blueprints</p>
+                                </div>
+                              </div>
+                              <div className="text-gray-400">
+                                {expandedPrinters.has(printer.id) ? '▲' : '▼'}
                               </div>
                             </div>
-                            <div className="text-gray-400">
-                              {expandedPrinters.has(printer.id) ? '▲' : '▼'}
-                            </div>
                           </div>
-                        </div>
-                        
-                        {/* Dropdown Content */}
-                        {expandedPrinters.has(printer.id) && (
-                          <div className="px-4 pt-2 pb-4 bg-eve-dark bg-opacity-50">
-                            <div className={`space-y-2 ${printer.blueprints.length > 10 ? 'max-h-[400px] overflow-y-auto' : ''}`}>
-                              {printer.blueprints.map((blueprint) => (
-                                <div
-                                  key={blueprint.id}
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    selectBlueprint(blueprint);
-                                  }}
-                                  className="p-2 bg-eve-gray bg-opacity-60 rounded border border-eve-border cursor-pointer hover:bg-eve-border hover:bg-opacity-80 transition-colors"
-                                >
-                                  <div className="flex items-center space-x-2">
-                                    <div className="flex-1">
-                                      <h5 className="font-semibold text-xs tracking-wide">{blueprint.name}</h5>
-                                      <div className="flex items-center space-x-2 text-xs text-gray-400 tracking-wide">
-                                        <span>{blueprint.category}</span>
-                                        <span>•</span>
-                                        <span>{blueprint.time}</span>
+                          
+                          {/* Dropdown Content */}
+                          {expandedPrinters.has(printer.id) && (
+                            <div className="px-4 pt-2 pb-4 bg-eve-dark bg-opacity-50">
+                              <div className={`space-y-2 ${printer.blueprints.length > 10 ? 'max-h-[400px] overflow-y-auto' : ''}`}>
+                                {printer.blueprints.map((blueprint) => (
+                                  <div
+                                    key={blueprint.id}
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      selectBlueprint(blueprint);
+                                    }}
+                                    className="p-2 bg-eve-gray bg-opacity-60 rounded border border-eve-border cursor-pointer hover:bg-eve-border hover:bg-opacity-80 transition-colors"
+                                  >
+                                    <div className="flex items-center space-x-2">
+                                      <div className="flex-1">
+                                        <h5 className="font-semibold text-xs tracking-wide">{blueprint.name}</h5>
+                                        <div className="flex items-center space-x-2 text-xs text-gray-400 tracking-wide">
+                                          <span>{blueprint.category}</span>
+                                          <span>•</span>
+                                          <span>{blueprint.time}</span>
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                  </div>
+                </div>
+
+                {/* Refinery Types */}
+                <div className="mt-6 bg-eve-gray bg-opacity-90 border border-eve-border rounded-lg backdrop-blur-sm">
+                  <div className="p-4 border-b border-eve-border">
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-lg font-semibold text-eve-orange tracking-widest">REFINERY TYPES</h3>
+                    </div>
+                    <p className="text-sm text-gray-400 tracking-wide">{refineryTypes.length} refinery types available</p>
+                  </div>
+                  <div>
+                    {refineryTypes
+                      .map(refinery => (
+                        <div key={refinery.id} className="border-b border-eve-border last:border-b-0">
+                          <div
+                            onClick={() => toggleRefineryExpansion(refinery.id)}
+                            className="p-4 cursor-pointer hover:bg-eve-border hover:bg-opacity-60 transition-colors"
+                          >
+                            <div className="flex items-center justify-between">
+                              <div className="flex items-center space-x-3">
+                                <div className="flex-1">
+                                  <h4 className="font-semibold text-sm tracking-wide">{refinery.name}</h4>
+                                  <p className="text-xs text-gray-400 tracking-wide">{refinery.recipes.length} recipes</p>
                                 </div>
-                              ))}
+                              </div>
+                              <div className="text-gray-400">
+                                {expandedRefineries.has(refinery.id) ? '▲' : '▼'}
+                              </div>
                             </div>
                           </div>
-                        )}
-                      </div>
-                    ))}
+                          
+                          {/* Dropdown Content */}
+                          {expandedRefineries.has(refinery.id) && (
+                            <div className="px-4 pt-2 pb-4 bg-eve-dark bg-opacity-50">
+                              <div className={`space-y-2 ${refinery.recipes.length > 10 ? 'max-h-[400px] overflow-y-auto' : ''}`}>
+                                {refinery.recipes.map((recipe) => (
+                                  <div
+                                    key={recipe.inputId}
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      selectRefineryRecipe(recipe, refinery);
+                                    }}
+                                    className="p-2 bg-eve-gray bg-opacity-60 rounded border border-eve-border cursor-pointer hover:bg-eve-border hover:bg-opacity-80 transition-colors"
+                                  >
+                                    <div className="flex items-center space-x-2">
+                                      <div className="flex-1">
+                                        <h5 className="font-semibold text-xs tracking-wide">{recipe.inputName || `Material ${recipe.inputId}`}</h5>
+                                        <div className="flex items-center space-x-2 text-xs text-gray-400 tracking-wide">
+                                          <span>Refinery</span>
+                                          <span>•</span>
+                                          <span>{refinery.name}</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      ))}
                   </div>
                 </div>
               </div>
@@ -532,10 +616,86 @@ function App() {
                       })()}
                     </div>
                   </div>
+                ) : selectedRefineryRecipe ? (
+                  <div className="bg-eve-gray bg-opacity-90 border border-eve-border rounded-lg backdrop-blur-sm">
+                    {/* Refinery Recipe Header */}
+                    <div className="p-6 border-b border-eve-border">
+                      <div className="flex items-center space-x-4">
+                        <div className="flex-1">
+                          <h2 className="text-2xl font-bold text-eve-orange tracking-widest">{selectedRefineryRecipe.inputName || `Material ${selectedRefineryRecipe.inputId}`}</h2>
+                          <div className="flex items-center space-x-4 text-sm text-gray-400 mt-1 tracking-wide">
+                            <span>Refinery</span>
+                            <span>•</span>
+                            <span>Processing Time: 30s</span>
+                            <span>•</span>
+                            <span className="text-eve-orange">Requires: Refinery</span>
+                          </div>
+                          <div className="flex items-center space-x-4 text-sm text-gray-300 mt-2 tracking-wide">
+                            <span>Produces: {selectedRefineryRecipe.outputNames.length > 0 
+                              ? selectedRefineryRecipe.outputNames.map(name => `1x ${name}`).join(', ')
+                              : selectedRefineryRecipe.outputIds.map(id => `1x Material ${id}`).join(', ')}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Manufacturing Tree - Full Width */}
+                    <div className="p-6">
+                      <h3 className="text-xl font-semibold text-eve-orange mb-6 flex items-center space-x-2 tracking-widest">
+                        <span>REFINERY PROCESS</span>
+                      </h3>
+                      
+                      <div className="bg-eve-dark bg-opacity-80 rounded border border-eve-border p-6 overflow-x-auto mb-6">
+                        <div className="font-mono text-lg text-gray-300 mb-4 pb-3 border-b border-eve-border tracking-wider">
+                          <span className="text-eve-orange font-bold">{selectedRefineryRecipe.inputName || `Material ${selectedRefineryRecipe.inputId}`}</span>
+                          <span className="text-gray-400 ml-2">(30s • Refinery)</span>
+                        </div>
+                        
+                        <div className="text-base leading-relaxed">
+                          <div className="font-mono text-sm tracking-wider">
+                            <div className="text-gray-300">
+                              <div className="flex items-center hover:bg-eve-border hover:bg-opacity-30 rounded px-2 py-1 transition-colors">
+                                <span className="text-gray-500 select-none tracking-widest whitespace-pre">└─ </span>
+                                <span className="mr-2 tracking-wide text-yellow-400">
+                                  {selectedRefineryRecipe.inputName || `Material ${selectedRefineryRecipe.inputId}`}
+                                </span>
+                                <span className="text-eve-orange font-bold mr-2 tracking-wider">×1</span>
+                              </div>
+                              {selectedRefineryRecipe.outputNames.length > 0 ? (
+                                selectedRefineryRecipe.outputNames.map((name, index) => (
+                                  <div key={index} className="ml-4">
+                                    <div className="flex items-center hover:bg-eve-border hover:bg-opacity-30 rounded px-2 py-1 transition-colors">
+                                      <span className="text-gray-500 select-none tracking-widest whitespace-pre">└─ </span>
+                                      <span className="mr-2 tracking-wide text-blue-400">
+                                        {name}
+                                      </span>
+                                      <span className="text-eve-orange font-bold mr-2 tracking-wider">×1</span>
+                                    </div>
+                                  </div>
+                                ))
+                              ) : (
+                                selectedRefineryRecipe.outputIds.map((id, index) => (
+                                  <div key={index} className="ml-4">
+                                    <div className="flex items-center hover:bg-eve-border hover:bg-opacity-30 rounded px-2 py-1 transition-colors">
+                                      <span className="text-gray-500 select-none tracking-widest whitespace-pre">└─ </span>
+                                      <span className="mr-2 tracking-wide text-blue-400">
+                                        Material {id}
+                                      </span>
+                                      <span className="text-eve-orange font-bold mr-2 tracking-wider">×1</span>
+                                    </div>
+                                  </div>
+                                ))
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 ) : (
                   <div className="bg-eve-gray bg-opacity-90 border border-eve-border rounded-lg p-12 text-center backdrop-blur-sm">
-                    <h3 className="text-xl font-semibold text-gray-400 mb-2 tracking-widest">Select a Blueprint</h3>
-                    <p className="text-gray-500 tracking-wide">Choose a blueprint from the printer types or use the search bar to explore manufacturing dependencies and requirements.</p>
+                    <h3 className="text-xl font-semibold text-gray-400 mb-2 tracking-widest">Select a Blueprint or Refinery Recipe</h3>
+                    <p className="text-gray-500 tracking-wide">Choose a blueprint from the printer types or a recipe from the refinery types to explore manufacturing dependencies and requirements.</p>
                   </div>
                 )}
               </div>
