@@ -15,8 +15,8 @@ export const blueprints: Blueprint[] = [
     category: 'Materials',
     time: '17s',
     inputs: [
-      { name: 'Carbon Fiber', amount: 10 },
-      { name: 'Synthetic Polymers', amount: 5 }
+      { name: 'Carbon Fiber', amount: 10, canManufacture: true, blueprintId: '19' },
+      { name: 'Synthetic Polymers', amount: 5, canManufacture: true, blueprintId: '20' }
     ],
     outputs: [{ name: 'Carbon Weave', amount: 1 }],
     printerType: 'Material Processor'
@@ -234,5 +234,27 @@ export const blueprints: Blueprint[] = [
     ],
     outputs: [{ name: 'Quantum Processor', amount: 1 }],
     printerType: 'Electronics Fabricator'
+  },
+  {
+    id: '19',
+    name: 'CARBON FIBER',
+    category: 'Materials',
+    time: '15s',
+    inputs: [
+      { name: 'Carbonaceous Materials', amount: 3150 }
+    ],
+    outputs: [{ name: 'Carbon Fiber', amount: 1 }],
+    printerType: 'Material Processor'
+  },
+  {
+    id: '20',
+    name: 'SYNTHETIC POLYMERS',
+    category: 'Materials',
+    time: '12s',
+    inputs: [
+      { name: 'Common Ore', amount: 10 }
+    ],
+    outputs: [{ name: 'Synthetic Polymers', amount: 1 }],
+    printerType: 'Material Processor'
   }
 ];

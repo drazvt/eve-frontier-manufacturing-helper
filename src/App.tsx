@@ -221,7 +221,7 @@ function App() {
         {blueprint.inputs.map((input, index) => {
           const dependentBlueprint = input.blueprintId ? findBlueprintById(input.blueprintId) : null;
           const isLastInput = index === blueprint.inputs.length - 1;
-          const hasManufacturableChild = input.canManufacture && dependentBlueprint;
+          const hasManufacturableChild = Boolean(input.canManufacture && dependentBlueprint);
           
           const currentPrefix = depth === 0 ? '' : prefix + (isLast ? '    ' : '│   ');
           const treeSymbol = renderTreeLine(isLastInput, hasManufacturableChild);
@@ -229,7 +229,7 @@ function App() {
           return (
             <div key={index} className="text-gray-300">
               <div className="flex items-center hover:bg-eve-border hover:bg-opacity-30 rounded px-2 py-1 transition-colors">
-                <span className="text-gray-500 select-none tracking-widest">{currentPrefix}{treeSymbol}</span>
+                <span className="text-gray-500 select-none tracking-widest whitespace-pre">{currentPrefix}{treeSymbol}</span>
                 <span className={`mr-2 tracking-wide ${input.canManufacture ? 'text-blue-400' : 'text-yellow-400'}`}>
                   {input.name}
                 </span>
@@ -240,9 +240,9 @@ function App() {
                 )}
               </div>
               
-              {hasManufacturableChild && (
+              {hasManufacturableChild && dependentBlueprint && (
                 <div className="ml-0">
-                  {renderDependencyTree(dependentBlueprint, depth + 1, isLastInput, currentPrefix)}
+                  {renderDependencyTree(dependentBlueprint, depth + 1, isLastInput, currentPrefix + (isLastInput ? '    ' : '│   '))}
                 </div>
               )}
             </div>
