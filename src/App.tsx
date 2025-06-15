@@ -383,7 +383,14 @@ function App() {
                     <p className="text-sm text-gray-400 tracking-wide">{printerTypes.length} printer types available</p>
                   </div>
                   <div>
-                    {printerTypes.map((printer) => (
+                    {printerTypes
+                      .sort((a, b) => {
+                        // Put structures first
+                        if (a.id === 'structures') return -1;
+                        if (b.id === 'structures') return 1;
+                        return a.name.localeCompare(b.name);
+                      })
+                      .map((printer) => (
                       <div key={printer.id} className="border-b border-eve-border last:border-b-0">
                         <div
                           onClick={() => togglePrinterExpansion(printer.id)}

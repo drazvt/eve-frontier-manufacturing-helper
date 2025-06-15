@@ -4,6 +4,7 @@ import { asteroidMining } from '../data/asteroidMining';
 import { Blueprint, PrinterType, RefineryType } from '../types';
 import { DataTransformer } from './dataTransformer';
 import rawBlueprints from '../data/blueprints.json';
+import structuresData from '../data/structures.json';
 import { createRefineryTypes } from '../data/refineryTypes';
 
 export class DataServiceError extends Error {
@@ -67,7 +68,13 @@ class DataService {
         return this.cachedBlueprints;
       }
 
-      this.cachedBlueprints = await this.dataTransformer.transformBlueprints(rawBlueprints);
+      // Merge structures data with raw blueprints
+      const mergedBlueprints = {
+        ...rawBlueprints,
+        ...structuresData
+      };
+
+      this.cachedBlueprints = await this.dataTransformer.transformBlueprints(mergedBlueprints);
       return this.cachedBlueprints;
     });
   }
