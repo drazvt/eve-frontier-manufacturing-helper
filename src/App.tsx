@@ -178,7 +178,7 @@ function App() {
 
   const selectBlueprint = (blueprint: Blueprint) => {
     setSelectedBlueprint(blueprint);
-    setSearchTerm(blueprint.name);
+    setSearchTerm('');
     setShowSuggestions(false);
     setFocusedSuggestionIndex(-1);
   };

@@ -49,7 +49,9 @@ export class DataTransformer {
           return {
             name: materialInfo.name,
             amount: material.quantity,
-            canManufacture: true, // This should be determined by checking if the material has a blueprint
+            canManufacture: Object.entries(rawData).some(([_, bp]) => 
+              bp.manufacturing_products?.some(p => p.typeID === material.typeID)
+            ),
             blueprintId: Object.entries(rawData).find(([_, bp]) => 
               bp.manufacturing_products?.some(p => p.typeID === material.typeID)
             )?.[0]
